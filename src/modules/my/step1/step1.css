@@ -1,0 +1,41 @@
+.hero{
+    margin-top: 20px;
+    font-size: 20px;
+	text-align:center;
+	width: 100%;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top:20px;
+    width: 100%;
+}
+
+input {
+	background-color: white;
+	border: 2px solid #aad2fa;
+	padding: 12px 15px;
+	margin: 10px auto;
+	width: 95%;
+}
+
+.container {
+	position: relative;
+	width: 468px;
+	max-width: 100%;
+	min-height: 280px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 40px;
+    padding-top: 80px;
+	text-align: center;
+}

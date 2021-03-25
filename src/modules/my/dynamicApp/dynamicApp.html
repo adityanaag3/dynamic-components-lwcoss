@@ -1,0 +1,10 @@
+<template>
+    <my-header></my-header>
+   
+    <my-dynamic-steps 
+        lwc:dynamic={dynamicCtor} 
+        username={username} 
+        onnav={handleNav}
+    ></my-dynamic-steps>
+   
+</template>

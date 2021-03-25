@@ -1,0 +1,15 @@
+<template>
+    <my-header></my-header>
+    <template if:true={isStep1}>
+        <my-step1 username={username} onnav={handleNav}></my-step1>
+    </template>
+    <template if:true={isStep2}>
+        <my-step2 username={username} onnav={handleNav}></my-step2>
+    </template>
+    <template if:true={isStep3}>
+        <my-step3 username={username} onnav={handleNav}></my-step3>
+    </template>
+    <template if:true={isStep4}>
+        <my-step4 username={username}></my-step4>
+    </template>
+</template>
