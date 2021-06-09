@@ -2,6 +2,10 @@
 
 Sample code showing how to create components dynamically in LWC OSS
 
+## Steps and Changes Explained
+
+[Watch this Quick Take](https://www.youtube.com/watch?v=KYRGmilJOrM) to learn about how to create components dynamically, the best practices to follow, and a few caveats.
+
 ## How to start?
 
 Start simple by running `yarn watch` (or `npm run watch`, if you set up the project with `npm`). This will start the project with a local development server.
